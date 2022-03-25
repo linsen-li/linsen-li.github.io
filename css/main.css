@@ -2808,11 +2808,6 @@ ul.social-links li:last-child a {
 /* =======================================
 6.6. Contact
 ======================================= */
-/* Contact form */
-.g-recaptcha {
-  margin-bottom: 20px;
-}
-/* / Contact form */
 
 /* Google Map */
 .map {
