@@ -3097,6 +3097,7 @@ ul.social-links li:last-child a {
 
 .portfolio-page-page-content img {
   max-width: 100%;
+  text-align: justify;
 }
 
 .ajax-page-content .embed-video,
