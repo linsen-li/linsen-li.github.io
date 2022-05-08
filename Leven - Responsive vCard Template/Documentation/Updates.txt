@@ -1,0 +1,65 @@
+Kerge vCard HTML Template Updates
+
+==============================================================
+v1.0
+==============================================================
+
+Initial release
+
+==============================================================
+v1.1 (10 April 2020)
+==============================================================
+
+- Dark version added
+- Improved styles
+- Improved HTML markup
+
+
+==============================================================
+v1.2 (21 April 2020)
+==============================================================
+
+- Full Width versions was added (Full Width Light & Dark)
+
+
+==============================================================
+v1.3 (21 April 2020)
+==============================================================
+
+- Minor improvements
+
+
+==============================================================
+v1.4 (16 February 2021)
+==============================================================
+
+- Updated version of jQuery.
+
+--------------
+How to update:
+--------------
+
+1. In all HTML files, you need to replace this line:
+
+<script src="js/jquery-2.1.3.min.js"></script>
+
+With this line:
+
+<script src="js/jquery-3.5.1.min.js"></script>
+
+2. js/main.js file. Replace this line:
+
+$(document).on('ready', function() {
+
+With this line:
+
+$(document).ready(function () {
+
+
+
+==============================================================
+v1.5 (11 October 2021)
+==============================================================
+
+- Dark & Full Width Dark versions: Improved Styles.
+
