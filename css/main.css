@@ -2444,29 +2444,12 @@ ul.social-links li:last-child a {
   width: 100%;
 }
 
-.portfolio-grid.two-columns figure {
-  width: calc(50% - 16px);
-}
-
-.portfolio-grid.three-columns figure {
-  width: calc(33.33333% - 16px);
-}
-
-.portfolio-grid.four-columns figure {
-  width: calc(25% - 16px);
-}
-
-.portfolio-grid.five-columns figure {
-  width: calc(20% - 16px);
-}
-
 .portfolio-grid img {
   position: relative;
   display: block;
   width: 100%;
 }
 
-.portfolio-grid figure a,
 .portfolio-rid figure img {
   display: block;
   position: relative;
@@ -2482,15 +2465,6 @@ ul.social-links li:last-child a {
 
 .portfolio-grid figure:hover img {
   transform: scale(1.2);
-}
-
-.portfolio-grid figure a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 3;
 }
 
 .portfolio-item-img {
@@ -2556,11 +2530,6 @@ ul.social-links li:last-child a {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio-grid.five-columns figure i {
-  bottom: 10px;
-  right: 10px;
-}
-
 .portfolio-grid figure .name {
   display: inline-block;
   padding: 4px 10px;
@@ -2574,12 +2543,6 @@ ul.social-links li:last-child a {
   max-width: calc(100% - 67px);
   border-radius: 5px;
   position: absolute;
-}
-
-.portfolio-grid.five-columns figure .name {
-  font-size: 13px;
-  top: 10px;
-  left: 10px;
 }
 
 .portfolio-grid figure .category {
@@ -2599,11 +2562,6 @@ ul.social-links li:last-child a {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-.portfolio-grid.five-columns figure .category {
-  bottom: 10px;
-  left: 10px;
 }
 
 
