@@ -102,8 +102,8 @@
 
               <h4>Involved roles: architecture, analog/digital/RF SoC design, process/electronics/optics/cryogenics
                 engineering, system design</h4>
-              Sep 2021-Present, Ph.D. work supervised by Prof. Dirk Englund in MIT EECS: [1]
-              <p>Built a quantum computer hardware that integrates the advanced qubit (cleanroom fabricated diamond
+              Ph.D. work supervised by Prof. Dirk Englund in MIT EECS, Sep 2021-Present: [1]
+              <p>-	Built a quantum computer hardware that integrates the advanced qubit (cleanroom fabricated diamond
                 color center) with a large-scale system on chip (SoC) control electronics and optics (diamond / SoC
                 hybrid integration).
 
@@ -152,8 +152,86 @@
                   generator (AWG) signal
                 </li>
               </ul>
-                
-                
+              
+              <h5>(III). PIC design: Designed the visible PIC with silicon nitride waveguide for photon routing to do 
+                remote two-qubit gate using Sandia national lab visible PIC platform and Applied Nanotool’s NanoSOI 
+                platform.</h5>
+              
+              <ul>
+                <li>PIC design in Lumerical: waveguide, taper, edge coupler, ring resonator, antenna, the grating coupler</li>
+              </ul>
+              
+              <h5>(IV). Packaging: hybrid integration between diamond QMC and CMOS control chip with electronics and optics packaging</h5>
+              
+              <ul>
+                <li>Hybrid integration: transfer print with Polydimethylsiloxane (PDMS), pick-and-place (with tungsten probe)</li>
+                <li>Electronics integration: printed circuit board design with Altium, wire bonding, RF packaging</li>
+                <li>Optics integration: fiber array alignment and gluing, 3D printing/machine fab of mechanical components</li>
+              </ul>
+               
+              <h5>(V). Test and measurement: built and carried out the cryogenic measurement with electronics and optics</h5>
+              
+              <ul>
+                <li>Cryogenic: 4K cryostat with optical free space and fiber access; 1.3K dilution fridge with electronics and optics</li>
+                <li>Digital Electronics: Fast/slow logic control with Xilinx FPGA/Arduino microcontroller</li>
+                <li>Analog Electronics: Current-voltage test and Pulse sequence control ~500 MHz</li>
+                <li>RF Electronics: 50GS/s AWG and 10 GHz bandwidth oscilloscope</li>
+                <li>Free space optics: Tunable laser, confocal microscope, spatial light modulator, photoluminescence (PL), 
+                  spectrometer, high-speed camera, Electron-multiplying charge-coupled devices)</li>
+                <li>Integrated optics: Fiber array, 6-axis mechanical stage, single-photon detector</li>
+                <li>Measurement automation programming: Matlab, python, C, C++, LabVIEW, shell</li>
+              </ul>
+              
+               <div class="block-title">
+                <h2>Modeling and simulation design (From the atom to device)</h2>
+              </div>
+              
+              <h4>Involved roles: optical components designer, device model engineer, semiconductor material science engineer</h4>
+              M.S. work in MIT EECS, Sep 2019-Feb 2021: [2,3]
+              <p>-	Proposed a field-based design of dielectric antennas interfacing diamond color centers with a 0.4 numerical aperture 
+               far-field Gaussian mode. This enables a highly efficient spin-photon interface with 93.2% mode overlap and 421 Purcell Factor. 
+              <ul>
+                  <li>Lumerical antenna structure design with custom physics-based optimization algorithms on MIT server clusters</li>
+              </ul>
+              Visiting scholar work in Stanford EE, Jul 2018-Sep 2018: [5]
+              <p>-	Designed a two-dimensional (2D) tunnel heterojunction with an H-shaped energy barrier, which serves as ultrathin memory 
+                selectors with good symmetry, non-linearity, and high endurance. Explored the design space for H-shaped memory using physical 
+                modeling and first-principle density functional theory (DFT) quantum transport simulations. Evaluated the H-shaped selector 
+                in the one-selector-one-resistor (1S1R) configuration and provided design guidelines for the heterojunction (metal/nL hBN/nL 
+                2D material/nL hBN/metal) design to match with the 1R characteristics.
+              <ul>
+                  <li>DFT calculation in VASP (Vienna Ab initio Simulation Package) using supercomputer cluster on THU</li>
+                  <li>Quantum transport calculation (Current-voltage relation in atom scale device) in QuantumATK with non-equilibrium 
+                    green's functions formalism (NEGF) using supercomputer cluster in Stanford</li>
+                  <li>Semiconductor device modeling with Verilog-A</li>
+              </ul>
+              B.E. work in THU EE, Dec 2015-Jul 2019: [4,6-11]
+                <p>-	Modeled the negative capacitance effect in black phosphorus transistor to explain the experiment I-V curve [4]
+                <p>-	Generated the semiconductor model of reconfigurable black phosphorus p-n junctions that explain the experiment I-V curve [6]
+                <p>-	Put forward a carrier diffusion model explaining millimeter-scale nonlocal photo-sensing effect in single-crystal perovskite [7]
+                <p>-	Investigated the influence of point defects on GaN-based materials by first-principle calculation. I found that vacancy defects 
+                  increase the effective masses of electrons and holes, consequently no contribution to non-radiative recombination. C-O complex interstitial 
+                  impurities or Ga interstitial impurities are most likely to lead to yellow luminescence in GaN-based materials. [8]
+                <p>-	Investigated the influence of dislocation defects on GaN-based materials using the physical modeling with the experimental data 
+                  (Internal quantum efficiency measured by PL and material screw/edge dislocation density measured by XRD) [9]
+                <p>-	Calculated the magnetic anisotropy energy (MAE) by VASP to investigate the perpendicular magnetic anisotropy (PMA) 
+                  changing of CoFeB thin films by applying a coating of GO membranes on top. Due to changes in the hybridization of 3d orbitals, 
+                  varying the location of the C atomic layer with Co changes the contribution of the Co–C stacks to PMA. Thus, the large PMA achieved 
+                  with GO membranes can be attributed to the orbital hybridization of the C and O atoms with the Co orbitals [10]
+                <p>-	Wrote a pattern with a novel device structure using graphene nanoribbon for terahertz wave emission [11]
+               <ul>
+                  <li>Semiconductor device model in Matlab and Mathematica [4, 6, 7, 9, 11]</li>
+                  <li>Device electric field and strain simulation in COMSOL Multiphysics [1, 7]</li>
+                  <li>Atomic-scale semiconductor material investigation using VASP and Material Studio for first-principal calculation of </li>
+                      <ul>
+                        <li> Electron band diagram and projected density of states calculation in different atomic structure supercells [8]</li>
+                        <li> Electron and hole effective mass changed in the conduction band and valance band [8]</li>
+                        <li> Electron density 3D/2D diagram in the atomic structure with atomic defect model [5, 8]</li>
+                        <li> Lowest energy atomic structure configurations optimization for material heterojunction or defect [5, 8, 10]</li>
+                        <li> Spin-orbit coupling calculation for MAE [10]</li>
+                     </ul>   
+              </ul>
+                  
             </div>
           </div>
 
@@ -164,8 +242,7 @@
               <h4>Reference:</h4>
               <ol>
                 <li>Linsen Li, et al. "Scalable quantum information processing architecture using a programmable array
-                  of spin-photon interfaces." In CLEO: QELS_Fundamental Science, pp. FF4J.1. (2022) (Highlighted, to
-                  submit to Nature)
+                  of spin-photon interfaces." In CLEO: QELS_Fundamental Science, pp. FF4J.1. (2022) (Highlighted)
                 </li>
                 <li>Linsen Li, et al. "Field-based design of a resonant dielectric antenna for coherent spin-photon
                   interfaces." Optics Express, 29, 16469-16476 & In CLEO: QELS_Fundamental Science, pp. FW4I.4. (2021)
