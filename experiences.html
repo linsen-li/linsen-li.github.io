@@ -97,15 +97,21 @@
               <div class="p-50"></div>
 
               <div class="block-title">
-                <h2>Quantum computer hardware system (From device to the system)</h2>
+                <h2>Optical quantum computer hardware system (From device to the system), key skills include: </h2>
               </div>
-
+              <ul>
+                <li>•	Experiment design and new concept prototype demonstration with electronics/optics/mechanical components</li>
+                <li>•	Metrology automation with software and programmable hardware </li>
+                <li>•	Cutting edge device manufacture by cleanroom fabrication process and advanced packaging  </li>
+                <li>•	Optical setup design and experimental building for system verification</li>
+                <li>•	Team working with cross-group and cross-culture collaboration (see homepage for all collaboration papers)</li>
+              </ul>
               <h4>Involved roles: architecture, analog/digital/RF SoC design, process/electronics/optics/cryogenics
                 engineering, system design</h4>
-              Ph.D. work supervised by Prof. Dirk Englund in MIT EECS, Sep 2021-Present: [1]
-              <p>-	Built a quantum computer hardware that integrates the advanced qubit (cleanroom fabricated diamond
-                color center) with a large-scale system on chip (SoC) control electronics and optics (diamond / SoC
-                hybrid integration).
+              <u> Ph.D. work supervised by Prof. Dirk Englund in MIT EECS </u>, Sep 2021-Present: [1]
+              <p>-	-	Designed and built an optical quantum computer hardware architecture that integrates the thousands
+                of advanced qubits (cleanroom fabricated diamond color center) with a hybrid integrated system on chip 
+                (SoC) control electronics as well as free-space optics control and readout: 
 
               <div class="item-title"><h4> Architecture</h4></div>
               <p>I. Diamond qubit material with an efficient spin-photon interface using dielectric nanostructure as an
@@ -116,8 +122,8 @@
                 gate.</p>
               <p>IV. Scalable hybrid integration between the diamond qubit material nanostructure with foundry chip
                 (CMOS/PIC)</p>
-              <p>V. Subsystem modeling and simulation analysis and detailed components design, fabrication, test, and
-                measurement.</p>
+              <p>V. Bench-top optical setup building for scalable characterization, free-space optical signal control, and readout.</p>
+              <p>VI. Subsystem modeling and simulation analysis and detailed components design, fabrication, and metrology.</p>
 
               <h5>(I). Cleanroom fabrication: fabricated the diamond quantum micro-chiplet (QMC) containing a long
                 spin-coherence qubit</h5>
@@ -168,30 +174,61 @@
                 <li>Electronics integration: printed circuit board design with Altium, wire bonding, RF packaging</li>
                 <li>Optics integration: fiber array alignment and gluing, 3D printing/machine fab of mechanical components</li>
               </ul>
+              
+              <h5> (V). Optical setup: built the bench-top optical setup for free-space optical signal control and readout</h5>
+              
+              <ul>
+                <li>Using Zemax OpticStudio to design the whole optical bench-top setup.</li>
+                <li>o	Visible light source control: Cobalt green laser (532 nm), tunable narrow linewidth laser (450 nm -1000 nm),
+                  acousto-optic modulator, electro-optic modulator (20 GHz bandwidth), spatial light modulator (SLM), which generates
+                  holography multi-spots excitation with 1920*1200 Liquid crystal on silicon (LCoS) pixel, galvo mirror, motorized 
+                  optical density filter wheel, 4f system, polarizer, and waveplate.</li>
+                <li>Detection box (multiple output channels controlled by motorized half waveplate before polarized beam splitter): </li>
+                  <ul>
+                  <li>Duo-camera system with CMOS camera (see the laser) and Electron-multiplying charge-coupled devices EMCCD with 
+                    long-pass filter (see the single-photon level fluorescence) at the same time.</li>
+                  <li>Spectrometer and the free-space single-photon detector: avalanche photodiode (APD)..</li>
+                  <li>Microlens array with fiber array on 6-axis mechanical stage.</li>
+                   </ul>
+              </ul>
                
-              <h5>(V). Test and measurement: built and carried out the cryogenic measurement with electronics and optics</h5>
+              <h5> (VI). Metrology: built and carried out the cryogenic metrology of the diamond color center with electric signal control </h5>
               
               <ul>
                 <li>Cryogenic: 4K cryostat with optical free space and fiber access; 1.3K dilution fridge with electronics and optics</li>
                 <li>Digital Electronics: Fast/slow logic control with Xilinx FPGA/Arduino microcontroller</li>
                 <li>Analog Electronics: Current-voltage test and Pulse sequence control ~500 MHz</li>
                 <li>RF Electronics: 50GS/s AWG and 10 GHz bandwidth oscilloscope</li>
-                <li>Free space optics: Tunable laser, confocal microscope, spatial light modulator, photoluminescence (PL), 
-                  spectrometer, high-speed camera, Electron-multiplying charge-coupled devices)</li>
-                <li>Integrated optics: Fiber array, 6-axis mechanical stage, single-photon detector</li>
+                <li>o	Optical readout of qubit state: laser input (generate by the laser incident SLM) to the input grating and output from 
+                  the output grating in free space (detected with a camera or APD), the color center (qubit) is in the optical waveguide or 
+                  resonant cavity. External analog or microwave signals will change the qubit property that can read out optically.</li>
                 <li>Measurement automation programming: Matlab, python, C, C++, LabVIEW, shell</li>
               </ul>
               
                <div class="block-title">
-                <h2>Modeling and simulation design (From the atom to device)</h2>
+                <h2>Modeling and simulation design (From the atom to device), key skills include:</h2>
               </div>
+              <ul>
+                <li>•	Large-scale numerical simulation from servers to supercomputer clusters</li>
+                <li>•	Multi-scale physical modeling from the atom (Å ~ nm) to the device (μm ~ mm)  </li>
+                <li>•	Physical field-based algorithm for optical diffractive efficiency optimization </li>
+              </ul>
+              
               
               <h4>Involved roles: optical components designer, device model engineer, semiconductor material science engineer</h4>
               M.S. work in MIT EECS, Sep 2019-Feb 2021: [2,3]
               <p>-	Proposed a field-based design of dielectric antennas interfacing diamond color centers with a 0.4 numerical aperture 
                far-field Gaussian mode. This enables a highly efficient spin-photon interface with 93.2% mode overlap and 421 Purcell Factor. 
               <ul>
-                  <li>Lumerical antenna structure design with custom physics-based optimization algorithms on MIT server clusters</li>
+                  <li>Wavelength scale device design (10 nm ~ 10 μm): Finite-Difference Time-Domain (FDTD) simulation in Lumerical for antenna 
+                    structure design with custom physics-based optimization algorithms on MIT server clusters. Using the look-up table from the
+                    two-dimensional (2D) Lumerical simulation to quickly optimize the angular symmetric three-dimensional (3D) far-field optimization
+                    for a resonant dielectric antenna at 637 nm (nitrogen-vacancy in diamond emission wavelength). </li>
+                  <li> Device model interfaces for the system: Maximize the photon outcoupling efficiency in free space by designing a proper 
+                    nanostructure grating working as an antenna as well as a resonant cavity, which fits into our experimental architecture of the 
+                    optical quantum computing in Ph.D. work. This design is for manufacturing considering the process variations.</li>
+                  <li> System design (~10 mm) with device model: performance estimation in MATLAB with a large array (millions) of dielectric 
+                    antenna for freely scalable qubit photonic interface in the experiment architecture.</li>
               </ul>
               Visiting scholar work in Stanford EE, Jul 2018-Sep 2018: [5]
               <p>-	Designed a two-dimensional (2D) tunnel heterojunction with an H-shaped energy barrier, which serves as ultrathin memory 
@@ -200,8 +237,8 @@
                 in the one-selector-one-resistor (1S1R) configuration and provided design guidelines for the heterojunction (metal/nL hBN/nL 
                 2D material/nL hBN/metal) design to match with the 1R characteristics.
               <ul>
-                  <li>DFT calculation in VASP (Vienna Ab initio Simulation Package) using supercomputer cluster on THU</li>
-                  <li>Quantum transport calculation (Current-voltage relation in atom scale device) in QuantumATK with non-equilibrium 
+                  <li>Atom scale (Å ~ nm): DFT calculation in VASP (Vienna Ab initio Simulation Package) using supercomputer cluster on THU</li>
+                  <li>Atom scale (Å ~ nm): Quantum transport calculation (Current-voltage relation in atom scale device) in QuantumATK with non-equilibrium 
                     green's functions formalism (NEGF) using supercomputer cluster in Stanford</li>
                   <li>Semiconductor device modeling with Verilog-A</li>
               </ul>
@@ -220,9 +257,9 @@
                   with GO membranes can be attributed to the orbital hybridization of the C and O atoms with the Co orbitals [10]
                 <p>-	Wrote a pattern with a novel device structure using graphene nanoribbon for terahertz wave emission [11]
                <ul>
-                  <li>Semiconductor device model in Matlab and Mathematica [4, 6, 7, 9, 11]</li>
-                  <li>Device electric field and strain simulation in COMSOL Multiphysics [1, 7]</li>
-                  <li>Atomic-scale semiconductor material investigation using VASP and Material Studio for first-principal calculation of </li>
+                  <li>Microscale (μm ~ mm): Semiconductor device model in Matlab and Mathematica [4, 6, 7, 9, 11]</li>
+                  <li>Nanoscale (nm ~ μm): Device electric field and strain simulation in COMSOL Multiphysics [1, 7]</li>
+                  <li>Atom scale (Å ~ nm): Atomic-scale semiconductor material investigation using VASP and Material Studio for first-principal calculation of </li>
                       <ul>
                         <li> Electron band diagram and projected density of states calculation in different atomic structure supercells [8]</li>
                         <li> Electron and hole effective mass changed in the conduction band and valance band [8]</li>
