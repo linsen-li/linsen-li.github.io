@@ -137,7 +137,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #9ca8b8;
+  color: #8696a7;
   text-decoration: none;
   outline: none;
   -webkit-transition: all .3s ease-in-out;
@@ -304,7 +304,7 @@ textarea.form-control, textarea.form-control:focus {
   top: 0;
   opacity: 0;
   background: transparent !important;
-  border:2px solid #9ca8b8;
+  border:2px solid #8696a7;
   border-right-width: 0;
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -377,7 +377,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #9ca8b8;
+  color: #8696a7;
 }
 
 .form-group.form-group-w-checkbox {
@@ -475,7 +475,7 @@ input[type="submit"],
   line-height: 1.2;
   border: 0;
   outline: 0;
-  border: 2px solid #9ca8b8;
+  border: 2px solid #8696a7;
   color: #fff;
   text-shadow: none;
   background-color: #333;
@@ -506,9 +506,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  background-color: #9ca8b8;
+  background-color: #8696a7;
   color: #fff;
-  border: 2px solid #9ca8b8;
+  border: 2px solid #8696a7;
 }
 
 .btn-secondary {
@@ -531,11 +531,11 @@ input[type="submit"]:focus {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #9ca8b8;
+  border-top: 2px solid #8696a7;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #9ca8b8;
+  border-bottom: 2px solid #8696a7;
 }
 
 /* Footer */
@@ -752,7 +752,7 @@ td {
   width: 52px;
   height: 52px;
   margin: 100px auto;
-  background-color: #9ca8b8;
+  background-color: #8696a7;
 
   border-radius: 100%;  
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -1203,7 +1203,7 @@ td {
   width: 44px;
   height: 44px;
   line-height: 44px;
-  background-color: #9ca8b8;
+  background-color: #8696a7;
   border-radius: 100px;
   text-align: center;
   color: #fff;
@@ -1578,7 +1578,7 @@ h3.comment-reply-title:after {
   position: absolute;
   content: '';
   width: 30px;
-  background-color: #9ca8b8;
+  background-color: #8696a7;
   height: 2px;
   bottom: 0;
 }
@@ -1595,7 +1595,7 @@ h3.comment-reply-title:before {
 }
 
 .block-title h3 span {
-  color: #9ca8b8;
+  color: #8696a7;
 }
 
 .custom-page-content .block {
@@ -1799,7 +1799,7 @@ h3.comment-reply-title:before {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #9ca8b8;
+    background-color: #8696a7;
 }
 
 .info-list li .value {
