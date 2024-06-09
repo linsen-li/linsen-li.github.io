@@ -148,6 +148,38 @@
   </div>
 </div>
 
+<!-- Chatbot app -->
+<body>
+    <h1>Chat with our AI!</h1>
+    <input type="text" id="userInput">
+    <button onclick="sendMessage()">Send</button>
+    <p id="response"></p>
+
+    <script>
+    function sendMessage() {
+        console.log("Sending message...");
+        var userInput = document.getElementById('userInput').value;
+        console.log("User input:", userInput);
+        fetch('https://young-river-03682-86ebf1998440.herokuapp.com/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({message: userInput})
+        })
+        .then(response => {
+            console.log("Received response:", response);
+            return response.json();
+        })
+        .then(data => {
+            console.log("Data received:", data);
+            document.getElementById('response').innerText = data;
+        })
+        .catch(error => console.error('Error:', error));
+    }
+    </script>
+</body>
+  
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
