@@ -132,14 +132,35 @@
                 <h2> Sep 2019 – May 2024 </h2>
               </div>
               
-              <p>- Designed and prototyped an electro-optical system, named “Quantum System on Chip” (QSoC), for scalable quantum computing architecture that hybrid integrated over ten thousand 
+              <!-- <p>- Designed and prototyped an electro-optical system, named “Quantum System on Chip” (QSoC), for scalable quantum computing architecture that hybrid integrated over ten thousand 
               advanced qubits (cleanroom fabricated diamond color center as single photon source) on the CMOS backplane with free-space optical control and readout. Designed the QSoC backplane and 
               got it fabricated with foundry tape out followed by in-house cleanroom post-processing and packaging. Built the automated testing setup and algorithm with programmable electrical-optical 
               hardware for QSoC inhomogenous registration and uniformity compensation and built a digital twin model that connects the physical and the digital worlds for root cause identification and optimization implementation.
               Proposed a protocol of “entanglement multiplexing” for large-scale quantum computing resource state generation fully utilizing the capability of the QSoC. 
-              Implemented a "Transformer-on-QuPairs" architecture that uses machine learning technology to outperform the rule-based approach for the “entanglement multiplexing” operation for the dynamic inhomogeneous quantum resource scheduling.
+              Implemented a "Transformer-on-QuPairs" architecture that uses machine learning technology to outperform the rule-based approach for the “entanglement multiplexing” operation for the dynamic inhomogeneous quantum resource scheduling. -->
+
               
-             <h4>EE - Circuit design: System-on-Chip with digital, analog, radio-frequency circuit</h4>
+              <p> <b>Heterogeneous Integration of Spin-Photon Interfaces with a Scalable CMOS Platform</b> (<a>
+                                href="https://dspace.mit.edu/entities/publication/37896de7-9b96-40b0-8d9f-2c631fa5ade6" <b>Ph.D. Thesis</b></a> 
+                  {<a>
+                                href="https://www.nature.com/articles/s41586-024-07371-7"> <b>QSoC</b></a> \href{} [3] key features delivered:}
+                  <li> <b>Freely scalable quantum hardware architecture:</b>  Engineered a ``Quantum System-on-Chip'' (QSoC) integrating thousands of addressable spin qubits in 2D microchiplet arrays onto a CMOS circuit; managed the full lifecycle from foundry tapeout through cleanroom nanofabrication and custom optical routing assembly. </li>
+                  <li> <b>Hardware design and simulation for the whole quantum system performance analysis:</b> Comprehensive digital model build up for the whole quantum system from mechanical simulation, optical simulation, circuit simulation, system level simulation. </li>
+                  <li> <b>Quantum system integration with manufacturable process and validation:</b> Integrated the designed PCB board, CMOS chip, and nanofabricated spin qubit 2D microchiplet array together putting in the crypgenic system. Develpoed benchtop electronics and optical setup to drive and test the quantum system performance. </li>
+              \end{itemize}
+
+              <p> <b>Hardware architecture and design:</b>
+                  <li> <b>Scalable quantum hardware fabrication and control architecture:</b> Designed all the critical components compatible with the semiconductor fabrication for spin qubit mass production. Designed the scalable optical commnucation protocal to enable parallel remote connect of the spin qubits in the 2D array.</li>
+                  <li> <b>Optical \& mechanical simulation:</b> Modeled physical tuning profiles via \textit{COMSOL} (FEA); simulated Photonic Integrated Circuits (PICs) via \textit{Lumerical Interconnect}; ran FDTD far-field optimizations; and designed free-space micro-optics lens systems in \textit{Zemax Opticstudio}. Led PIC chip tapeouts with TSMC, Sandia National Lab.</li>
+                  <li> <b>PCB \& silicon design:</b> Tapeout of custom 180nm High-Voltage CMOS backend control chips (\textit{Cadence}) featuring digital serial interfaces, high-voltage sample-and-hold arrays, and RF transmission line management switches.  Designed the PCB (\textit{Altium}) to drive the silicon for testing. Led chip tapeouts with TSMC and PCB tape out with domestic vendors.</li>
+
+             <p> <b>System integration and validation:</b>
+                  <li> <b> Manufacturing \& packaging integration:</b> Executed lock and release nanostructure integration, and transfer printing via PDMS/tungsten probes; managed fiber array active alignment, and chips/optics packaging with wire bonding. </li>
+                  <li> <b> Automated metrology system setup:</b> Programmed multi-instrument hardware testbeds (\textit{Python/C++/Matlab}) to synchronize signal inputs and detector data; automated MEMS mirror scans, widefield camera alignments, motorized stages and actuators to perform auto positioning and measurement.   </li>
+                  <li> <b> AI Scheduling system feature with quantitative analysis:</b> Modeled quantum state transfers via Bayesian probability, classified qubit quality using \textit{PyTorch}, and isolated signal patterns with computer vision. Co-authored a \textbf{``Transformer-on-QuPairs''} ML scheduling architecture with Prof. Kaiming He to outperform traditional rule-based routing protocols.</li>
+
+              
+             <!-- <h4>EE - Circuit design: System-on-Chip with digital, analog, radio-frequency circuit</h4>
                <ul>
                 <li>CMOS Chip design: CMOS backend chip for panel control (180nm High Voltage) designed with cadence including a digital series interface for channel selection, high voltage (HV) maintainer. RF switch for the transmission line. </li>
                 <li>Digital circuit design: Serial shift register, data selector, communication with Serial Peripheral Interface (SPI) interface. </li>
@@ -276,7 +297,7 @@
                         <li> Spin-orbit coupling calculation for MAE </li>
                      </ul>   
                  <li>Pattern written: Wrote a pattern with a novel device structure using graphene nanoribbon for terahertz emission. </li>
-              </ul>
+              </ul> -->
                   
             </div>
           </div>
@@ -287,9 +308,13 @@
             <div class="col-xs-12 col-sm-12">
               <h4>Reference:</h4>
               <ol>
+                <li><mark>Linsen Li</mark>, et al. "Self-Predictive Pixel Uniformity Compensation for Displays." US Patent Application No. US19772864, Filed Aug 11, 2026. (Non-Provisional)
+                </li>
+                <li><mark>Linsen Li</mark>, et al. "Black Level and Color Compensation for Displays." US Patent Application No. US64148164, Filed Sep 4, 2026. (Provisional)
+                </li>
                 <li><mark>Linsen Li</mark>, et al. "Heterogeneous integration of spin-photon interfaces with a CMOS platform." Nature. (2024)
                 </li>
-                <li><mark>Linsen Li</mark>, et al. "Dynamic inhomogeneous quantum resource scheduling with reinforcement learning." Arxiv:2405.16380. (2024)
+                <!-- <li><mark>Linsen Li</mark>, et al. "Dynamic inhomogeneous quantum resource scheduling with reinforcement learning." Arxiv:2405.16380. (2024)
                 </li>
                 <li><mark>Linsen Li</mark>, et al. "Field-based design of a resonant dielectric antenna for coherent spin-photon
                   interfaces." Optics Express, 29, 16469-16476. (2021)
@@ -306,7 +331,7 @@
                 <li><mark>Linsen Li</mark>, Zhibiao Hao. "Graphene terahertz emitter and its manufacturing method." Patent Application
                   Number CN201510767570. Filed on Nov. 11, 2015. Granted on Nov. 26, 2018, Assignee: Tsinghua
                   University.
-                </li>
+                </li> -->
               </ol>
             </div>
           </div>
